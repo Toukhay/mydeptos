@@ -1,0 +1,68 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: #1ac592;
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Establece el color del texto a blanco */
+}
+
+.navbar-nav .nav-link:hover {
+    color: navajowhite; /* Mantiene el mismo color del texto en el estado de hover */
+}
+
+/* Estilo para hacer que la imagen del logo sea más pequeña */
+.navbar-brand{
+    max-width: 120px; /* Establece el ancho máximo de la imagen (ajusta según tus necesidades) */
+    max-height: 120px; /* Establece la altura máxima de la imagen (ajusta según tus necesidades) */
+}  
+
+/* Establece un tamaño fijo para todas las imágenes en el carrusel */
+.carousel-inner img {
+    width: 100%; /* Ajusta el ancho al 100% del contenedor del carrusel */
+    height: 300px; /* Establece una altura fija para todas las imágenes */
+    /*object-fit: cover;  Mantiene la proporción y recorta si es necesario */
+}  
+
+/* Agrega un margen superior al carrusel para crear la separación */
+#carouselExampleCaptions {
+    margin-top: 30px; /* Puedes ajustar el valor según tus preferencias */
+    margin-bottom: 30px;
+}  
+
+.color_about{
+    background-color: rgb(194, 194, 194);
+}
+
+.color_about h4{
+    padding-top: 20px;
+}
+
+.about {
+    display: flex; /* Utilizamos flexbox para disposición horizontal */
+    justify-content: center; /* Centramos horizontalmente en el contenedor */
+    gap: 20px; /* Agregamos espacio entre las tarjetas */
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+.card {
+        width: 18rem; /* Ancho fijo para las tarjetas */
+        margin-bottom: 20px;
+}
+
+.about .card-body{
+    background-color: rgb(205, 224, 224);
+}
+.new_apartment {
+    display: flex; /* Utilizamos flexbox para disposición horizontal */
+    justify-content: center; /* Centramos horizontalmente en el contenedor */
+    gap: 20px; /* Agregamos espacio entre las tarjetas */
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+h4{
+    text-align: center;
+}
